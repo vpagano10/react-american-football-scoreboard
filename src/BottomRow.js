@@ -30,20 +30,20 @@ const BottomRow = () => {
     </div>
     <div className="bottomRowOptions">
       <div>
-        <button className="options" onClick={() => setDown(down + 1)}>Down +</button>
-        <button className="options" onClick={() => setDown(down - 1)}>Down -</button>
+        <button className="options" onClick={() => setDown(down + 1)}>+</button>
+        <button className="options" onClick={() => setDown(down - 1)}>-</button>
       </div>
       <div>
-        <button className="options" onClick={() => setToGo(toGo + 1)}>ToGo +</button>
-        <button className="options" onClick={() => setToGo(toGo - 1)}>ToGo -</button>
+        <button className="options" onClick={() => setToGo(toGo + 1)}>+</button>
+        <button className="options" onClick={() => setToGo(toGo - 1)}>-</button>
       </div>
       <div>
-        <button className="options" onClick={() => setBallOn(ballOn + 1)}>Ball On +</button>
-        <button className="options" onClick={() => setBallOn(ballOn - 1)}>Ball On -</button>
+        <button className="options" onClick={() => setBallOn(ballOn + 1)}>+</button>
+        <button className="options" onClick={() => setBallOn(ballOn - 1)}>-</button>
       </div>
       <div>
-        <button className="options" onClick={() => setQuarter(quarter + 1)}>Quarter +</button>
-        <button className="options" onClick={() => setQuarter(quarter - 1)}>Quarter -</button>
+        <button className="options" onClick={() => setQuarter(quarter + 1)}>+</button>
+        <button className="options" onClick={() => setQuarter(quarter - 1)}>-</button>
       </div>
     </div>
     </>
